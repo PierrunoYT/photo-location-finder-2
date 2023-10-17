@@ -11,7 +11,7 @@ This code utilizes the Picarta AI service to classify images in a given folder d
 
 ## How to Use
 
-1. Obtain an API token from the Picarta website and replace the `api_token` variable with your actual API token.
+1. (Right Now the API Key is included) Obtain an API token from the Picarta website and replace the `api_token` variable with your actual API token.
 2. Run the code and provide a folder directory when prompted.
 3. The code will iterate over the files in the folder, find JPEG images, read the image file, encode it in base64 format, and send a request to the Picarta API.
 4. If the request is successful (status code 200), the API response will be printed.
