@@ -5,7 +5,7 @@ import os
 import webbrowser
 
 url = "https://picarta.ai/classify"
-api_token = "XH89O1QLMPRHTLAR94AF"  # Replace with your actual API token
+api_token = "YOUR API TOKEN"  # Replace with your actual API token
 headers = {"Content-Type": "application/json"}
 
 # Prompt the user to enter a folder directory
